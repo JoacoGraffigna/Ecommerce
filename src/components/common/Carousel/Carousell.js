@@ -12,16 +12,17 @@ import "./carousel.css"
 
 const items = [
   {
-    src:require('./img/hyperx-brand-banner.jpg'), 
+    src: require('./img/readragon.jpg'),
+    
     key: 1,
   },
   {
-    src: require('./img/readragon.jpg'),
-
+    
+    src:require('./img/hyperx-brand-banner.jpg'), 
     key: 2,
   },
   {
-    src: 'https://picsum.photos/id/678/1200/400',
+    src: require('./img/amd.jpg'),
 
     key: 3,
   },
@@ -55,7 +56,7 @@ function Carousell(args) {
         onExited={() => setAnimating(false)}
         key={item.src}
       >
-        <img src={item.src} alt={item.altText} width={"100%"} height={"700px"}  />
+        <img src={item.src} alt={item.altText} style={{objectFit:"fill"}} width={"100%"} height={"700px"}  />
         <CarouselCaption
           captionText={item.caption}
           captionHeader={item.caption}
