@@ -13,10 +13,10 @@ const Products = () => {
         <a href='/Pheriperals'>peripherals</a><FaMouse />
         </div>
         <div className='productos'>
-        <a href='#'>components</a><SiWebcomponentsdotorg/>
+        <a href='/Components'>components</a><SiWebcomponentsdotorg/>
         </div>
         <div className='productos'>
-        <a href='#'>notebook</a><MdComputer/>
+        <a href='Notebook'>notebook</a><MdComputer/>
         </div>
         <div className='productos'>
         <a href='#'>build your PC</a><FaComputer/>

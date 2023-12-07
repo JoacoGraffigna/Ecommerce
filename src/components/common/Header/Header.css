@@ -19,9 +19,11 @@
     margin: auto;
 }
 
-.logo h2{
+.logo a{
+    font-size: 30px;
+    text-decoration: none;
     color: white;
-    margin-left: 2rem;
+    margin-left: 5rem;
 }
 .busqueda{
 

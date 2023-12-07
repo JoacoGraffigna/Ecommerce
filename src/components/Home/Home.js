@@ -6,11 +6,18 @@ import Products from '../common/Products/Products'
 import End from '../common/end/End'
 import Carousell from '../common/Carousel/Carousell'
 
-const Home = () => {
+const Home = ({
+  allProducts,
+  setAllProducts,
+  total,
+  setTotal,
+  countProducts,
+  setCountProducts
+}) => {
   return (
     <div className='home'>
     
-    <Header/>
+    <Header allProducts={allProducts} setAllProducts={setAllProducts} total={total} setTotal={setTotal} countProducts={countProducts} setCountProducts={setCountProducts} />
     <Products/>
     <Carousell/>
     <Slider/>
