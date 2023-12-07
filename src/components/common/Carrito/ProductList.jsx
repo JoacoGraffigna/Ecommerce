@@ -17,7 +17,6 @@ const ProductList = ({allProducts,setAllProducts,countProducts,setCountProducts,
         setAllProducts([...allProducts,product])
         
     }
-    console.log(allProducts)
     
   return (
     
