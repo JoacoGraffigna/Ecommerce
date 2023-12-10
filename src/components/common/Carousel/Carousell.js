@@ -12,13 +12,14 @@ import "./carousel.css"
 
 const items = [
   {
-    src: require('./img/readragon.jpg'),
+    src:require('./img/hyperx-brand-banner.jpg'), 
+    
     
     key: 1,
   },
   {
+    src: require('./img/readragon.jpg'),
     
-    src:require('./img/hyperx-brand-banner.jpg'), 
     key: 2,
   },
   {
