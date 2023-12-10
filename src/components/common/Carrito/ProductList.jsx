@@ -30,7 +30,7 @@ const ProductList = ({allProducts,setAllProducts,countProducts,setCountProducts,
 						<h2>{product.nameProduct}</h2>
 						<p className='price'>${product.price}</p>
 						<button onClick={() => onAddProduct(product) }>
-							Añadir al carrito
+							Add to cart
 						</button>
 					</div>
 				</div>
